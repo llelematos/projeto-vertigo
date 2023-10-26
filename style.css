@@ -131,7 +131,13 @@ main {
 @media(min-width: 1000px){
     body{
         display: flex;
+        height: 100vh;
     }
+
+    .bg-desktop img{
+width: 100%;
+    }
+
     header{
         background: none;
         justify-content: flex-start;
